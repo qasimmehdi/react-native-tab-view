@@ -70,12 +70,6 @@
     "react-native": "*",
     "react-native-pager-view": "*"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript"
-    }
-  },
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
