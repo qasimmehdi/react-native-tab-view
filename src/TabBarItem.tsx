@@ -235,7 +235,7 @@ export default class TabBarItem<T extends Route> extends React.Component<
         testID={getTestID(scene)}
         accessible={getAccessible(scene)}
         accessibilityLabel={accessibilityLabel}
-        accessibilityRole="tab"
+        accessibilityRole="button"
         accessibilityState={{ selected: isFocused }}
         // @ts-ignore: this is to support older React Native versions
         accessibilityStates={isFocused ? ['selected'] : []}
